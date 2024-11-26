@@ -5,7 +5,7 @@ sudo yum install -y curl
 
 sudo yum install -y python3
 sudo yum install -y python3-pip
-sudo pip3 install Flask
+sudo pip3 install flask
 
 aws s3 cp s3://wsi-1234-iost-artifactory/app.py ./
 
